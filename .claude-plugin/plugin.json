@@ -1,0 +1,24 @@
+{
+  "name": "brooklet-ro-assessment",
+  "description": "Assess whether a proposed individual is preliminarily suitable to act as a Responsible Officer (RO) for an SFC licence application, especially for Type 1, Type 4 and Type 9 cases. Produces client-facing preliminary reply and internal supporting note in .docx format.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Brooklet Advisory Limited",
+    "url": "https://github.com/BrookletAdvisory"
+  },
+  "homepage": "https://github.com/BrookletAdvisory/brooklet-ro-assessment",
+  "repository": "https://github.com/BrookletAdvisory/brooklet-ro-assessment",
+  "license": "MIT",
+  "keywords": [
+    "sfc",
+    "responsible-officer",
+    "ro-assessment",
+    "hong-kong",
+    "compliance",
+    "type-1",
+    "type-4",
+    "type-9",
+    "licensing",
+    "regulated-activity"
+  ]
+}
