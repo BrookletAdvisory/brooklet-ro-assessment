@@ -162,9 +162,10 @@ When the user asks for Management-in-Charge (MIC) allocation after RO suitabilit
 - Template: `MIC Organisational Chart (Master)_Final.pptx` (ask user for path if not in working directory)
 - Method: Open the template, replace all "NAME" placeholders with the assigned RO's name, replace "[NAME OF LICENCE APPLICANT]" with the company name, and save as a new file.
 - Each MIC function group in the template has a "NAME" / "TITLE" placeholder pair. Match each placeholder to the assigned RO based on the MIC function label (e.g., the group labeled "MIC of Risk Management" gets the RM-assigned RO's name).
-- The KBL section in the template has two person slots (one for each joint RO).
+- **KBL sub-function split:** The KBL section has two sub-function labels: "Investment Management" and "Sales & Marketing". Each must be assigned a lead RO by appending the RO name below the label (e.g., "Investment Management (RO1)" and "Sales & Marketing (RO2)"). Assign the more investment-experienced RO to Investment Management, and the more client/sales-facing RO to Sales & Marketing. The KBL NAME box still shows both ROs as "Joint: RO1 / RO2".
+- **Company name:** Replace the entire placeholder `[MAME OF LICENCE APPLICANT]` or `[NAME OF LICENCE APPLICANT]` with the company name. The brackets MUST be removed together with the placeholder text -- output reads "Organisational Chart of Wise Delta", NOT "Organisational Chart of [Wise Delta]".
 - The OMO section also acts as the overall RO name display.
-- Do NOT modify shapes, positions, connectors, or formatting -- only replace text.
+- **Do NOT modify shapes, positions, connectors, or formatting** -- only replace/add text.
 - Save as `[Applicant]-MIC-Organisational-Chart.pptx`.
 
 **Internal note still includes the MIC rationale table** (see `references/internal-note-template.md` MIC Allocation section). The .pptx is the client-facing deliverable; the table stays in the internal note for evidence.
