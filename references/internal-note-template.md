@@ -127,6 +127,23 @@ The Management Experience section must follow this fixed format:
 | Recency | | |
 | Fit and proper | | |
 
+## MIC Allocation table (when user requests for 2+ ROs)
+
+Follow the binding Brooklet MIC conventions in the main SKILL.md Step 9. Format:
+
+| MIC Function | Primary | Support | Rationale |
+|---|---|---|---|
+| OMO | [Name] | [Name or --] | [One-line reason citing specific experience] |
+| KBL-IM | Joint: [RO1] / [RO2] | -- | [One-line reason] |
+| KBL-S&M | Joint: [RO1] / [RO2] | -- | [One-line reason] |
+| RM | [Name] | [Name or --] | [One-line reason] |
+| Compliance/AML | [Name] | [Name or --] | [One-line reason] |
+| OCR | [Name] | -- | [One-line reason] |
+| F&A | [Name] | -- | [One-line reason] |
+| IT | [Name] | -- | [One-line reason] |
+
+**Pairing thesis:** [One paragraph explaining how the two ROs complement each other across the MIC functions. Note any experience gap coverage (e.g., senior RO covers Type 9 depth; junior RO brings operational execution).] |
+
 ## Outstanding points template
 
 > **Candidate 1 Name:**
