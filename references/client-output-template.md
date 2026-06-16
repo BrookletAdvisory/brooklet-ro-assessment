@@ -63,6 +63,7 @@ We would be happy to discuss further upon your review.
 
 - **First-occurrence acronym rule.** "Responsible Officer (RO)" or 「负责人员（Responsible Officer，RO）」 on first occurrence; thereafter the acronym alone is fine. Same convention for any other acronym used.
 - **One paragraph per candidate.** No sub-bullets, no sub-headings, no internal flags inside the candidate paragraph.
+- **Candidate paragraph: concise and commercial.** The candidate paragraph should give the bottom-line assessment and the key reasons supporting it. Do NOT include a lengthy CV recap (education history, full career timeline, list of every title held). The client already knows who the candidate is. Focus on: (1) current licensing status, (2) fit to the proposed RAs, (3) past-6-year experience sufficiency in one sentence, (4) management experience in one sentence, (5) exam/exemption position in one sentence, (6) 1-2 headline follow-up items. If background context is needed to explain the assessment, keep it to 1-2 sentences maximum.
 - **Numbered list only in the closing block.** "总结及其他事项" / "Overall recommendation and other matters" is the only place a list is allowed.
 - **No internal warnings or evidence trails.** Things like "TBC", "Brooklet to draft template", "evidence to substantiate" belong only in the internal note.
 - **Tone: commercial, not regulatory-academic.** The client should feel they have received a clear preliminary view, not a regulatory essay.

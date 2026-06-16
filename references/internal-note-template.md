@@ -97,9 +97,21 @@ After each RA's table, add a one-sentence italic conclusion:
 
 For most cases this is a **one-sentence paragraph**, not a table. Format:
 
-> "Combined Type [X] + Type [Y] [LR/RO] requires N papers: Paper [list]. From [evidence], [the candidate] has demonstrably passed Paper [list] (or holds equivalent exemption). [Still needs to pass Paper Z] / [Within 3–8 yr re-entry window — no re-exam, only CPT top-up of N hours]."
+> "Combined Type [X] + Type [Y] [LR/RO] requires N papers: Paper [list]. From [evidence], [the candidate] has demonstrably passed Paper [list] (or holds equivalent exemption). [Still needs to pass Paper Z] / [Within 3-8 yr re-entry window -- no re-exam, only CPT top-up of N hours]."
 
 If multiple sub-cases need separate treatment, fall back to a 3-column table: `Proposed RA | Current view | Paper / basis`.
+
+### Management Experience format (mandatory)
+
+The Management Experience section must follow this fixed format:
+
+> **[Name of company]** -- managed **[which teams/departments]** with **[X] direct subordinates / approximately [X] to [X] persons during the tenure.**
+
+- Be specific about which departments or functions were managed (e.g., "compliance and finance teams", "Risk Management Department, Legal & Compliance Department, and Finance Department").
+- Headcount must be a concrete number or numeric range. Do not write "large team" or "multiple departments" without a number.
+- Where the candidate's CV or self-written materials do not provide headcount, and the company is a **publicly listed or well-known entity**, attempt a web search for the company's total employee headcount from annual reports, company profiles, or financial data platforms. Cite the source and note the retrieval date, then flag `[RO to confirm: actual number of direct subordinates]`. The company-wide headcount provides a useful ceiling.
+- Where the company is private/opaque and no headcount is available, write `[TBC: headcount to confirm with RO]`.
+- List each management role as a separate line item if the candidate held multiple management positions across different employers.
 
 ## Comparative summary table (multi-candidate)
 
