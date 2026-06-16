@@ -147,31 +147,27 @@ Both deliverables go out as `.docx`. Render to PDF + JPG previews and **visually
 
 ### Step 9 — MIC Allocation (only when user explicitly requests)
 
-When the user asks for Management-in-Charge (MIC) allocation after RO suitability has been preliminarily established, produce an MIC allocation table covering the 8 SFC core functions. Follow these **binding Brooklet conventions**:
+When the user asks for Management-in-Charge (MIC) allocation after RO suitability has been preliminarily established, produce a **PowerPoint (.pptx)** MIC Organisational Chart using the Brooklet template. Follow these **binding Brooklet conventions**:
 
 | Convention | Rule |
 |---|---|
-| **All KBL functions are joint** | Key Business Line -- Investment Management (KBL-IM) and Key Business Line -- Sales & Marketing (KBL-S&M) are **always jointly held by two ROs**. Never assign a KBL function to a single RO. Use "Joint: [RO1] / [RO2]" format. |
-| **OCR to operational RO** | Operational Control & Review (OCR) is assigned to the more operationally hands-on RO (the one closer to day-to-day trading, settlement, and operational procedures). Do not assign OCR to a purely senior/strategic RO. |
-| **OMO to senior RO** | Overall Management Oversight (OMO) goes to the most senior RO (longest management experience, highest prior title). |
-| **RM to RO with risk credentials** | Risk Management (RM) goes to the RO with the stronger risk background (FRM, prior risk department head, risk committee membership). |
+| **All KBL functions are joint** | Key Business Line -- Investment Management (KBL-IM) and Key Business Line -- Sales & Marketing (KBL-S&M) are **always jointly held by two ROs**. Never assign a KBL function to a single RO. |
+| **OCR to operational RO** | Operational Control & Review (OCR) is assigned to the more operationally hands-on RO. |
+| **OMO to senior RO** | Overall Management Oversight (OMO) goes to the most senior RO. |
+| **RM to RO with risk credentials** | Risk Management (RM) goes to the RO with the stronger risk background. |
 | **Compliance to RO with compliance background** | Compliance & AML/CTF goes to the RO who has directly managed a compliance department or held regulatory/AML roles. |
-| **F&A / IT to senior RO** | Finance & Accounting and Information Technology default to the senior RO unless another RO has specific qualifications. |
+| **F&A / IT to senior RO** | Finance & Accounting and Information Technology default to the senior RO. |
 
-**MIC table format** (use in internal notes):
+**Output format: .pptx**
+- Template: `MIC Organisational Chart (Master)_Final.pptx` (ask user for path if not in working directory)
+- Method: Open the template, replace all "NAME" placeholders with the assigned RO's name, replace "[NAME OF LICENCE APPLICANT]" with the company name, and save as a new file.
+- Each MIC function group in the template has a "NAME" / "TITLE" placeholder pair. Match each placeholder to the assigned RO based on the MIC function label (e.g., the group labeled "MIC of Risk Management" gets the RM-assigned RO's name).
+- The KBL section in the template has two person slots (one for each joint RO).
+- The OMO section also acts as the overall RO name display.
+- Do NOT modify shapes, positions, connectors, or formatting -- only replace text.
+- Save as `[Applicant]-MIC-Organisational-Chart.pptx`.
 
-| MIC Function | Primary | Support | Rationale |
-|---|---|---|---|
-| OMO | [Name] | [Name or --] | [One-line reason] |
-| KBL-IM | Joint: [RO1] / [RO2] | -- | [One-line reason] |
-| KBL-S&M | Joint: [RO1] / [RO2] | -- | [One-line reason] |
-| RM | [Name] | [Name or --] | [One-line reason] |
-| Compliance/AML | [Name] | [Name or --] | [One-line reason] |
-| OCR | [Name] | -- | [One-line reason] |
-| F&A | [Name] | -- | [One-line reason] |
-| IT | [Name] | -- | [One-line reason] |
-
-After the table, add a one-paragraph **pairing thesis** explaining how the two ROs complement each other. Mention coverage of any experience gaps (e.g., senior RO covers Type 9 depth while junior RO brings operational execution).
+**Internal note still includes the MIC rationale table** (see `references/internal-note-template.md` MIC Allocation section). The .pptx is the client-facing deliverable; the table stays in the internal note for evidence.
 
 ## Drafting prohibitions
 
