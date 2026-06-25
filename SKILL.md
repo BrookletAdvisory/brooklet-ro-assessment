@@ -38,6 +38,8 @@ Always consult these reference files before drafting. They contain the canonical
 | `references/sfc-exam-framework.md` | Read whenever you need to determine the exam / exemption position. **Do not work from memory** — the agent has gotten paper combinations wrong in the past. |
 | `references/client-output-template.md` | Read when drafting the client-facing reply. |
 | `references/internal-note-template.md` | Read when drafting the internal supporting note. |
+| `references/templates/MIC-Organisational-Chart-Template.pptx` | **Canonical PPT template for MIC org chart.** When generating MIC allocation, open this file and replace text placeholders — never recreate layout from scratch. |
+| `references/templates/MIC-Acknowledgement-Form-Template.docx` | **Canonical Word template for MIC Acknowledgement Form.** When generating per-RO acknowledgement forms, open this file and fill Part A + signature line — never modify formatting. |
 
 The `brooklet-word-document-style` skill governs Word formatting for both deliverables.
 
@@ -147,28 +149,72 @@ Both deliverables go out as `.docx`. Render to PDF + JPG previews and **visually
 
 ### Step 9 — MIC Allocation (only when user explicitly requests)
 
-When the user asks for Management-in-Charge (MIC) allocation after RO suitability has been preliminarily established, produce a **PowerPoint (.pptx)** MIC Organisational Chart using the Brooklet template. Follow these **binding Brooklet conventions**:
+When the user asks for Management-in-Charge (MIC) allocation after RO suitability has been preliminarily established, produce two deliverables: (i) a **PowerPoint (.pptx) MIC Organisational Chart** and (ii) **one MIC Acknowledgement Form (.docx) per RO**.
+
+---
+
+### Step 9A — MIC Organisational Chart (.pptx)
+
+**Template:** `references/templates/MIC-Organisational-Chart-Template.pptx`
+
+**Method:** Open the template, replace text placeholders (names, job titles, MIC function labels) **without modifying shapes, positions, connectors, or formatting.** Every GROUP shape in the template already contains MIC function labels and name/title placeholders — only replace the text content.
+
+**How the template is structured:**
+- Each MIC function has a **name-label GROUP** positioned above the function box. Inside the GROUP: a MIC label (e.g. "MIC of Risk Management"), an RO name box, and a title box ("Responsible Officer").
+- The KBL section has a **joint-responsibility** name box (contains both ROs' names side by side, label reads "Responsible Officers" plural).
+- The bottom row shows all core functions (Finance, IT, Compliance, Risk, Operations, Sales & Marketing). Some are assigned to named ROs; unassigned functions are covered by a note: *"As part of its commitment to enhanced corporate governance and the principle of segregation of duties, the Company will seek additional suitable candidates to assume the role of Manager-in-Charge for these core functions."*
+- A "Supported by" box lists external support: law firm, compliance consulting firm, fund administrator.
+- Company name appears in the title header — replace the placeholder `[NAME OF LICENCE APPLICANT]` with the actual company name. **Brackets must be removed together with placeholder text.**
+- Board of Directors box (top): Primary RO's name goes here.
+
+**Binding Brooklet MIC conventions:**
 
 | Convention | Rule |
 |---|---|
-| **All KBL functions are joint** | Key Business Line -- Investment Management (KBL-IM) and Key Business Line -- Sales & Marketing (KBL-S&M) are **always jointly held by two ROs**. Never assign a KBL function to a single RO. |
-| **OCR to operational RO** | Operational Control & Review (OCR) is assigned to the more operationally hands-on RO. |
-| **OMO to senior RO** | Overall Management Oversight (OMO) goes to the most senior RO. |
-| **RM to RO with risk credentials** | Risk Management (RM) goes to the RO with the stronger risk background. |
+| **All KBL functions are joint** | Key Business Line — Investment Management and Sales & Marketing are **always jointly held by two ROs**. The KBL name box shows both names; the label uses "Responsible Officers" (plural). |
+| **OCR to operational RO** | Operational Control & Review goes to the more operationally hands-on RO. |
+| **OMO to senior RO** | Overall Management Oversight goes to the most senior RO. |
+| **RM to RO with risk credentials** | Risk Management goes to the RO with the stronger risk background. |
 | **Compliance to RO with compliance background** | Compliance & AML/CTF goes to the RO who has directly managed a compliance department or held regulatory/AML roles. |
 | **F&A / IT to senior RO** | Finance & Accounting and Information Technology default to the senior RO. |
+| **Board → Primary RO** | The Board of Directors box carries the Primary RO's name. Joint RO is not on the Board unless explicitly instructed. |
+| **External support annotation** | The template includes a "Supported by" box — keep this as standard disclosure. |
 
-**Output format: .pptx**
-- Template: `MIC Organisational Chart (Master)_Final.pptx` (ask user for path if not in working directory)
-- Method: Open the template, replace all "NAME" placeholders with the assigned RO's name, replace "[NAME OF LICENCE APPLICANT]" with the company name, and save as a new file.
-- Each MIC function group in the template has a "NAME" / "TITLE" placeholder pair. Match each placeholder to the assigned RO based on the MIC function label (e.g., the group labeled "MIC of Risk Management" gets the RM-assigned RO's name).
-- **KBL sub-function split:** The KBL section has two sub-function labels: "Investment Management" and "Sales & Marketing". Each must be assigned a lead RO by appending the RO name below the label (e.g., "Investment Management (RO1)" and "Sales & Marketing (RO2)"). Assign the more investment-experienced RO to Investment Management, and the more client/sales-facing RO to Sales & Marketing. The KBL NAME box still shows both ROs as "Joint: RO1 / RO2".
-- **Company name:** Replace the entire placeholder `[MAME OF LICENCE APPLICANT]` or `[NAME OF LICENCE APPLICANT]` with the company name. The brackets MUST be removed together with the placeholder text -- output reads "Organisational Chart of Wise Delta", NOT "Organisational Chart of [Wise Delta]".
-- The OMO section also acts as the overall RO name display.
-- **Do NOT modify shapes, positions, connectors, or formatting** -- only replace/add text.
-- Save as `[Applicant]-MIC-Organisational-Chart.pptx`.
+**Company name rule:** Replace the entire placeholder `[NAME OF LICENCE APPLICANT]` or text containing brackets with the actual company name. Output must not contain any brackets.
 
-**Internal note still includes the MIC rationale table** (see `references/internal-note-template.md` MIC Allocation section). The .pptx is the client-facing deliverable; the table stays in the internal note for evidence.
+**Save as:** `[Applicant]-MIC-Organisational-Chart.pptx`
+
+---
+
+### Step 9B — MIC Acknowledgement Form (.docx), one per RO
+
+**Template:** `references/templates/MIC-Acknowledgement-Form-Template.docx`
+
+**Method:** Open the template, fill Part A personal particulars and the signature line at the document end. **Do not modify any formatting, styles, table structures, or layout.** Only replace text content.
+
+**Part A fields to fill:**
+
+| Field | Source |
+|---|---|
+| Full name in English | From CV / SFC record |
+| Full name in Chinese | From CV / SFC record (if available) |
+| HKID No. | **Ask user to provide.** If not provided, leave blank — the client fills this in themselves. Do not guess or invent. |
+| Passport No. | Leave blank (HK PR uses HKID) |
+| CE No. | From SFC Public Register |
+| Place of residence | From Information Request List |
+| Job title | From Information Request List / MIC allocation |
+| Mobile No. | From Information Request List |
+| Personal email address | From Information Request List |
+| Report to | Senior RO / Board / CEO (confirm with user) |
+
+**Opening paragraph (Part A — Acknowledgement):** Fill in the RO's name and MIC function(s) on the blank lines in paragraph [2]:
+- `I,___[RO Name]___, holder of the HKID Card / Passport No.___[leave blank]___, hereby acknowledge and accept my appointment as Manager-in-Charge of___[MIC function(s)]___ of [Company Name]...`
+
+**Signature line (end of document):** Fill in the RO's name on the "Name" line in Table 3. Leave "Signature" and "Date" blank for the RO to complete.
+
+**Save as:** `[Applicant]-MIC-Acknowledgement-Form-[ROName].docx`
+
+**HKID rule:** Always ask the user: "Please provide the RO's HKID number, or I will leave it blank for the client to fill in." Never invent an HKID. If the user does not provide it, leave the field blank.
 
 ## Drafting prohibitions
 
